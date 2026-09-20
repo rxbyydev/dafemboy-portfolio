@@ -1,0 +1,481 @@
+:root {
+  font-family: "Inter var", sans-serif;
+  font-weight: 400;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  font-variation-settings: normal;
+
+  --primarytextcolor: rgb(226, 232, 240);
+  --secondarytextcolor: rgb(148, 163, 184);
+}
+
+.primarytext {
+  color: var(--primarytextcolor);
+}
+
+.secondarytext {
+  color: var(--secondarytextcolor);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--primarytextcolor);
+
+  transition: 0.15s;
+
+  &:hover {
+    color: rgb(255, 110, 180);
+  }
+}
+
+body {
+  background-color: rgb(15,23,42);
+  padding: 0;
+  margin: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Inter var";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url("./fonts/Inter-roman.var.woff2?v=3.19") format("woff2");
+}
+@font-face {
+  font-family: "Inter var";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: "Italic";
+  src: url("./fonts/Inter-italic.var.woff2?v=3.19") format("woff2");
+}
+
+@media screen and (max-width: 1200px) {
+  /*Tablets*/
+  a:hover {
+    color: var(--primarytextcolor);
+  }
+}
+
+
+.fadein {
+  opacity: 0;
+  transform: translateY(2.5rem);
+  animation: 500ms fadein;
+  animation-fill-mode: forwards;
+}
+
+.fadeinonscroll {
+  opacity: 0;
+  transform: translateY(2.5rem);
+}
+
+@keyframes fadein {
+  from { transform: translateY(2.5rem); opacity: 0; }
+  to { transform: translateY(0%); opacity: 1; }
+}
+.d100ms {
+  animation-delay: 100ms;
+}
+
+.d200ms {
+  animation-delay: 200ms;
+}
+
+.d300ms {
+  animation-delay: 300ms;
+}
+
+.d400ms {
+  animation-delay: 400ms;
+}
+
+.d500ms {
+  animation-delay: 500ms;
+}
+
+.d600ms {
+  animation-delay: 600ms;
+}
+
+.d700ms {
+  animation-delay: 700ms;
+}
+
+.d800ms {
+  animation-delay: 800ms;
+}
+
+.d900ms {
+  animation-delay: 900ms;
+}
+
+.d1000ms {
+  animation-delay: 1000ms;
+}
+
+.d1100ms {
+  animation-delay: 1100ms;
+}
+
+.d1200ms {
+  animation-delay: 1200ms;
+}
+
+.d1300ms {
+  animation-delay: 1300ms;
+}
+
+.d1400ms {
+  animation-delay: 1400ms;
+}
+
+.d1500ms {
+  animation-delay: 1500ms;
+}
+
+.d1600ms {
+  animation-delay: 1600ms;
+}
+
+.d1700ms {
+  animation-delay: 1700ms;
+}
+
+.d1800ms {
+  animation-delay: 1800ms;
+}
+
+.d1900ms {
+  animation-delay: 1900ms;
+}
+
+.d2000ms {
+  animation-delay: 2000ms;
+}
+
+.d2100ms {
+  animation-delay: 2100ms;
+}
+
+.d2200ms {
+  animation-delay: 2200ms;
+}
+
+.d2300ms {
+  animation-delay: 2300ms;
+}
+
+.d2400ms {
+  animation-delay: 2400ms;
+}
+
+.d2500ms {
+  animation-delay: 2500ms;
+}
+
+.d2600ms {
+  animation-delay: 2600ms;
+}
+
+.d2700ms {
+  animation-delay: 2700ms;
+}
+
+.d2800ms {
+  animation-delay: 2800ms;
+}
+
+.d2900ms {
+  animation-delay: 2900ms;
+}
+
+.d3000ms {
+  animation-delay: 3000ms;
+}
+
+.d3100ms {
+  animation-delay: 3100ms;
+}
+
+.d3200ms {
+  animation-delay: 3200ms;
+}
+
+.d3300ms {
+  animation-delay: 3300ms;
+}
+
+.d3400ms {
+  animation-delay: 3400ms;
+}
+
+.d3500ms {
+  animation-delay: 3500ms;
+}
+
+.d3600ms {
+  animation-delay: 3600ms;
+}
+
+.d3700ms {
+  animation-delay: 3700ms;
+}
+
+.d3800ms {
+  animation-delay: 3800ms;
+}
+
+.d3900ms {
+  animation-delay: 3900ms;
+}
+
+.d4000ms {
+  animation-delay: 4000ms;
+}
+
+.d4100ms {
+  animation-delay: 4100ms;
+}
+
+.d4200ms {
+  animation-delay: 4200ms;
+}
+
+.d4300ms {
+  animation-delay: 4300ms;
+}
+
+.d4400ms {
+  animation-delay: 4400ms;
+}
+
+.d4500ms {
+  animation-delay: 4500ms;
+}
+
+.d4600ms {
+  animation-delay: 4600ms;
+}
+
+.d4700ms {
+  animation-delay: 4700ms;
+}
+
+.d4800ms {
+  animation-delay: 4800ms;
+}
+
+.d4900ms {
+  animation-delay: 4900ms;
+}
+
+.d5000ms {
+  animation-delay: 5000ms;
+}
+
+.d5100ms {
+  animation-delay: 5100ms;
+}
+
+.d5200ms {
+  animation-delay: 5200ms;
+}
+
+.d5300ms {
+  animation-delay: 5300ms;
+}
+
+.d5400ms {
+  animation-delay: 5400ms;
+}
+
+.d5500ms {
+  animation-delay: 5500ms;
+}
+
+.d5600ms {
+  animation-delay: 5600ms;
+}
+
+.d5700ms {
+  animation-delay: 5700ms;
+}
+
+.d5800ms {
+  animation-delay: 5800ms;
+}
+
+.d5900ms {
+  animation-delay: 5900ms;
+}
+
+.d6000ms {
+  animation-delay: 6000ms;
+}
+
+.d6100ms {
+  animation-delay: 6100ms;
+}
+
+.d6200ms {
+  animation-delay: 6200ms;
+}
+
+.d6300ms {
+  animation-delay: 6300ms;
+}
+
+.d6400ms {
+  animation-delay: 6400ms;
+}
+
+.d6500ms {
+  animation-delay: 6500ms;
+}
+
+.d6600ms {
+  animation-delay: 6600ms;
+}
+
+.d6700ms {
+  animation-delay: 6700ms;
+}
+
+.d6800ms {
+  animation-delay: 6800ms;
+}
+
+.d6900ms {
+  animation-delay: 6900ms;
+}
+
+.d7000ms {
+  animation-delay: 7000ms;
+}
+
+.d7100ms {
+  animation-delay: 7100ms;
+}
+
+.d7200ms {
+  animation-delay: 7200ms;
+}
+
+.d7300ms {
+  animation-delay: 7300ms;
+}
+
+.d7400ms {
+  animation-delay: 7400ms;
+}
+
+.d7500ms {
+  animation-delay: 7500ms;
+}
+
+.d7600ms {
+  animation-delay: 7600ms;
+}
+
+.d7700ms {
+  animation-delay: 7700ms;
+}
+
+.d7800ms {
+  animation-delay: 7800ms;
+}
+
+.d7900ms {
+  animation-delay: 7900ms;
+}
+
+.d8000ms {
+  animation-delay: 8000ms;
+}
+
+.d8100ms {
+  animation-delay: 8100ms;
+}
+
+.d8200ms {
+  animation-delay: 8200ms;
+}
+
+.d8300ms {
+  animation-delay: 8300ms;
+}
+
+.d8400ms {
+  animation-delay: 8400ms;
+}
+
+.d8500ms {
+  animation-delay: 8500ms;
+}
+
+.d8600ms {
+  animation-delay: 8600ms;
+}
+
+.d8700ms {
+  animation-delay: 8700ms;
+}
+
+.d8800ms {
+  animation-delay: 8800ms;
+}
+
+.d8900ms {
+  animation-delay: 8900ms;
+}
+
+.d9000ms {
+  animation-delay: 9000ms;
+}
+
+.d9100ms {
+  animation-delay: 9100ms;
+}
+
+.d9200ms {
+  animation-delay: 9200ms;
+}
+
+.d9300ms {
+  animation-delay: 9300ms;
+}
+
+.d9400ms {
+  animation-delay: 9400ms;
+}
+
+.d9500ms {
+  animation-delay: 9500ms;
+}
+
+.d9600ms {
+  animation-delay: 9600ms;
+}
+
+.d9700ms {
+  animation-delay: 9700ms;
+}
+
+.d9800ms {
+  animation-delay: 9800ms;
+}
+
+.d9900ms {
+  animation-delay: 9900ms;
+}
+
+.d10000ms {
+  animation-delay: 10000ms;
+}
