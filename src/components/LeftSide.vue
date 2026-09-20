@@ -31,7 +31,6 @@ export default {
       navIndex: 0,
       socials: [
         ["github", "#"],
-        ["discord", "#"],
         ["at", "mailto:uwu@dafemboy.dev"],
       ],
     }
